@@ -17,4 +17,7 @@
 5. public int search(Object o);
 - 인자 값으로 받은 데이터 위치 반환
 
+6. public Element get(int index);
+- 해당 위치의 데이터 반환
+
 > https://velog.io/@lshjh4848/Java-%EC%8A%A4%ED%83%9DStack-%ED%81%B4%EB%9E%98%EC%8A%A4-%EC%A0%95%EB%A6%AC
