@@ -1,4 +1,4 @@
-#Number
+# Number
 
 ## int 자리수 구하기
 ```

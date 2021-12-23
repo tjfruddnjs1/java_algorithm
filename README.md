@@ -80,3 +80,9 @@
 - subString(int start, int end) : start ~ end 사이 값 잘라옴
 
 > https://codevang.tistory.com/121?category=827592
+
+## 람다식에서 콜론 2개 (::) 이중 콜론 연산 용도 & 사용법
+
+- 명칭 : `메소드 참조 표현`
+- 람다식에서 파라미터를 중복해서 사용하지 않기 위해 사용
+- http://yoonbumtae.com/?p=2776
