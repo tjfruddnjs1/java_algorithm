@@ -54,7 +54,7 @@
 3. 검색 : findFirst(), findAny()
 4. 검사 : anyMatch(), allMatch(), noneMatch()
 5. 통계 : count(), min(), max()
-6. 연산 : sum(), average)
+6. 연산 : sum(), average()
 7. 수집 : collect()
 
 > 참고 : https://ahndding.tistory.com/23
