@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 public class solutionFrame {
   static int input;
 
-  public static void function(){
+  public static void solution(){
 
   }
 
