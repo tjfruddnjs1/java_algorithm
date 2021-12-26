@@ -6,6 +6,11 @@
 - Collections.sort : List 정렬 -> List.sort (Java 8 이상)
 - 성능 차이 : https://sabarada.tistory.com/138
 
+## 내림차순 정렬
+- Array Primitive Type 일 경우 type error
+- Wrapper Class 를 통해 `Collections.reverseOrder()` 수행
+> https://gosasac.tistory.com/11
+
 ## 사용자 정의 클래스 정렬
 1. Comparable 인터페이스를 상속 받아 compareTo 구현
 2. Comparator 인터페이스를 상속 받아 compare 구현
