@@ -1,4 +1,4 @@
-package com.algorithm.Search;
+package com.algorithm.Search.DFS_BFS;
 
 import java.io.BufferedReader;
 import java.io.IOException;

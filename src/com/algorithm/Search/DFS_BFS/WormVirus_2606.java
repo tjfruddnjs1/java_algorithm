@@ -1,4 +1,4 @@
-package com.algorithm.Search;
+package com.algorithm.Search.DFS_BFS;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -9,13 +9,15 @@ import java.util.ArrayList;
 import java.util.StringTokenizer;
 import java.util.TreeMap;
 
-public class SolutionFrame_DFS {
+public class WormVirus_2606 {
   static boolean[] visited;
   static ArrayList<TreeMap<Integer, Integer>> arrayList;
   static int vertex,edge;
+  static int answer = -1;
 
   public static void dfs(int start_vertex){
     visited[start_vertex] = true;
+    answer++;
     TreeMap<Integer, Integer> getAdjElements = arrayList.get(start_vertex);
     for(int i : getAdjElements.keySet()){
       if(!visited[i]){
@@ -47,6 +49,8 @@ public class SolutionFrame_DFS {
     }
 
     dfs(1);
+
+    writer.write(String.valueOf(answer));
 
     writer.flush();
     writer.close();
