@@ -1,6 +1,7 @@
 package com.algorithm.Programmers.Search.DFS_BFS;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class TravelPath {
@@ -23,11 +24,14 @@ public class TravelPath {
         }
     }
 
-    public static void solution(String[][] tickets) {
+    public static String[] solution(String[][] tickets) {
         answers = new ArrayList<>();
         visited = new boolean[tickets.length];
 
         dfs(tickets, "ICN", "ICN", 0);
+
+        Collections.sort(answers);
+        return answers.get(0).split(" ");
     }
 
 
